@@ -40,11 +40,7 @@ Option 1:
 Option 2:
 ```
 git clone https://github.com/dugalex/KWinMoveAW.git
-```
-```
 cd KWinMoveAW
-```
-```
 cp -r KWinMoveAW ~/.local/share/kwin/scripts/
 ```
 
