@@ -13,6 +13,6 @@
         <entry name="geom7" type="String"><default>2530,9,525,595</default></entry>
         <entry name="geom8" type="String"><default>2530,614,525,765</default></entry>
         <entry name="geom9" type="String"><default>2530,9,525,1370</default></entry>
-        <entry name="blacklist" type="String"><default>steam_app,vlc,mpv</default></entry>
+        <entry name="blacklist" type="String"><default>my_app,myapp,my.app</default></entry>
     </group>
 </kcfg>
