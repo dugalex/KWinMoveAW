@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Config</class>
+ <widget class="QWidget" name="Config">
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QLabel" name="label"><property name="text"><string>Enter geometries as: X,Y,Width,Height</string></property></widget>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0"><widget class="QLabel"><property name="text"><string>Position 0:</string></property></widget></item>
+     <item row="0" column="1"><widget class="QLineEdit" name="kcfg_geom0"/></item>
+     <item row="1" column="0"><widget class="QLabel"><property name="text"><string>Position 1:</string></property></widget></item>
+     <item row="1" column="1"><widget class="QLineEdit" name="kcfg_geom1"/></item>
+     <item row="2" column="0"><widget class="QLabel"><property name="text"><string>Position 2:</string></property></widget></item>
+     <item row="2" column="1"><widget class="QLineEdit" name="kcfg_geom2"/></item>
+     <item row="3" column="0"><widget class="QLabel"><property name="text"><string>Position 3:</string></property></widget></item>
+     <item row="3" column="1"><widget class="QLineEdit" name="kcfg_geom3"/></item>
+     <item row="4" column="0"><widget class="QLabel"><property name="text"><string>Position 4:</string></property></widget></item>
+     <item row="4" column="1"><widget class="QLineEdit" name="kcfg_geom4"/></item>
+     <item row="5" column="0"><widget class="QLabel"><property name="text"><string>Position 5:</string></property></widget></item>
+     <item row="5" column="1"><widget class="QLineEdit" name="kcfg_geom5"/></item>
+     <item row="6" column="0"><widget class="QLabel"><property name="text"><string>Position 6:</string></property></widget></item>
+     <item row="6" column="1"><widget class="QLineEdit" name="kcfg_geom6"/></item>
+     <item row="7" column="0"><widget class="QLabel"><property name="text"><string>Position 7:</string></property></widget></item>
+     <item row="7" column="1"><widget class="QLineEdit" name="kcfg_geom7"/></item>
+     <item row="8" column="0"><widget class="QLabel"><property name="text"><string>Position 8:</string></property></widget></item>
+     <item row="8" column="1"><widget class="QLineEdit" name="kcfg_geom8"/></item>
+     <item row="9" column="0"><widget class="QLabel"><property name="text"><string>Position 9:</string></property></widget></item>
+     <item row="9" column="1"><widget class="QLineEdit" name="kcfg_geom9"/></item>
+     <!-- Separator item spacing inside the configuration panel grid -->
+     <item row="10" column="0" colspan="2"><widget class="Line" name="line_separator"><property name="orientation"><enum>Qt::Horizontal</enum></property></widget></item>
+     <item row="11" column="0"><widget class="QLabel" name="blacklistLabel"><property name="text"><string>Application Blacklist:</string></property></widget></item>
+     <item row="11" column="1"><widget class="QLineEdit" name="kcfg_blacklist"><property name="placeholderText"><string>steam_app, vlc, mpv (comma-separated)</string></property></widget></item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+</ui>

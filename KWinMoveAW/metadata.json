@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Name": "KWinMoveAW",
+        "Description": "Move the active window to a specific position and size with a keyboard shortcut",
+        "Icon": "preferences-system-windows",
+        "Category": "Window Management",
+        "Authors": [
+            { "Name": "Dugalex" }
+        ],
+        "Id": "KWinMoveAW",
+        "Version": "1.1.0",
+        "License": "GPLv3",
+        "EnabledByDefault": false,
+        "Website": "https://github.com/dugalex/kwinmoveaw"
+    },
+    "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted",
+    "X-KDE-ConfigXML": "main.xml",
+    "X-KDE-ParentApp": "kwin",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
+

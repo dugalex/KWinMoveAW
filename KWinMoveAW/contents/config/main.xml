@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://kde.org"
+      xmlns:xsi="http://w3.org"
+      xsi:schemaLocation="http://kde.org http://kde.org/kcfg.xsd">
+    <group>
+        <entry name="geom0" type="String"><default>600,9,1920,1108</default></entry>
+        <entry name="geom1" type="String"><default>9,9,1008,595</default></entry>
+        <entry name="geom2" type="String"><default>9,614,1008,765</default></entry>
+        <entry name="geom3" type="String"><default>9,9,1008,1370</default></entry>
+        <entry name="geom4" type="String"><default>1027,9,1493,595</default></entry>
+        <entry name="geom5" type="String"><default>1027,614,1493,765</default></entry>
+        <entry name="geom6" type="String"><default>1027,9,1493,1370</default></entry>
+        <entry name="geom7" type="String"><default>2530,9,525,595</default></entry>
+        <entry name="geom8" type="String"><default>2530,614,525,765</default></entry>
+        <entry name="geom9" type="String"><default>2530,9,525,1370</default></entry>
+        <entry name="blacklist" type="String"><default>steam_app,vlc,mpv</default></entry>
+    </group>
+</kcfg>
