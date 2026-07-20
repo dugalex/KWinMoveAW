@@ -31,7 +31,7 @@
      <!-- Separator item spacing inside the configuration panel grid -->
      <item row="10" column="0" colspan="2"><widget class="Line" name="line_separator"><property name="orientation"><enum>Qt::Horizontal</enum></property></widget></item>
      <item row="11" column="0"><widget class="QLabel" name="blacklistLabel"><property name="text"><string>Application Blacklist:</string></property></widget></item>
-     <item row="11" column="1"><widget class="QLineEdit" name="kcfg_blacklist"><property name="placeholderText"><string>my_app, myapp, my.app (comma-separated)</string></property></widget></item>
+     <item row="11" column="1"><widget class="QLineEdit" name="kcfg_blacklist"><property name="placeholderText"><string>my_app,myapp,my.app (comma-separated)</string></property></widget></item>
     </layout>
    </item>
   </layout>
