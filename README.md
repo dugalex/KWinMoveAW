@@ -32,7 +32,7 @@ qdbus org.kde.KWin /KWin reconfigure
 
 ## Installation
 Option 1:
-- Download [Latest Release](https://github.com/dugalex/KWinMoveAW/releases) from this repo
+- Download [Latest Release](https://github.com/dugalex/KWinMoveAW/releases/latest) from this repo
 - Go to `System Settings > Window Management > KWin Scripts`
 - Click "Install from File..."
 - Browse to, and select the downloaded "KWinMoveAW.kwinscript" and pres OK.
