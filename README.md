@@ -11,6 +11,8 @@ The Keyboard Shortcuts can be edited in `System Settings > Keyboard > Shortcuts 
 ## Positions and Sizes
 The positions and sizes can be edited in `System Settings > Window Management > KWin Scripts` by clicking the gear icon on the right of the script.
 
+Application Blacklist will prevent moving the active window by accident if it's currently active but is one that should not be moved/resized.
+
 ![config](https://github.com/dugalex/KWinMoveAW/blob/main/images/gear.png)<br>
 ![config](https://github.com/dugalex/KWinMoveAW/blob/main/images/config.png)<br>
 > [!IMPORTANT] 
